@@ -20,7 +20,7 @@ import org.springframework.core.env.Environment;
  * - Ada banyak cara untuk mengakses konfigurasi yang terdapat di application.properties, nanti akan dibahas di chapter masing-masing
  */
 @SpringBootTest(classes = Application.class)
-public class ApplicationPropertiesTest {
+public class SamplePropertiesTest {
 
     @Autowired
     private Environment environment;
