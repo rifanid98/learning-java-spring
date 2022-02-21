@@ -6,7 +6,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Getter
 @Setter
-@ConfigurationProperties("application")
+@ConfigurationProperties("applicationss")
+//@ConfigurationProperties("application") // commented to avoid error duplicate
 public class ApplicationProperties {
 
     private String name;
