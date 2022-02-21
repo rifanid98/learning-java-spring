@@ -9,7 +9,8 @@ import java.util.Map;
 
 @Getter
 @Setter
-@ConfigurationProperties("application")
+@ConfigurationProperties("applicationsss")
+//@ConfigurationProperties("application") // commented to avoid error duplicate
 public class ApplicationProperties {
 
     private String name;
